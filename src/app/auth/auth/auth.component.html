@@ -1,0 +1,27 @@
+<mat-drawer-container class="example-container" autosize>
+  <mat-drawer #drawer class="example-sidenav" mode="side">
+    <div>
+      <p>Menu</p>
+      <p>Iniciar sesión</p>
+      <p>Registrarse</p>
+    </div>
+    <div>
+      <p>Colegio Nacional de Buenos Aires</p>
+    </div>
+  </mat-drawer>
+
+  <div class="example-sidenav-content">
+    <mat-toolbar>
+      <button
+        (click)="drawer.toggle()"
+        mat-icon-button
+        class="example-icon"
+        aria-label="Example icon-button with menu icon"
+      >
+        <mat-icon>menu</mat-icon>
+      </button>
+      <span>Colegio Nacional de Buenos Aires</span>
+      <span class="example-spacer"></span>
+    </mat-toolbar>
+  </div>
+</mat-drawer-container>

@@ -1,0 +1,36 @@
+.example-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.example-sidenav {
+  padding: 20px;
+}
+
+/* Snackbar de error con fondo rojo */
+.snackbar-error {
+  background-color: red;
+  color: white;
+}
+
+/* Snackbar de éxito con fondo verde */
+.snackbar-success {
+  background-color: green;
+  color: white;
+}
+
+.bienvenido-container {
+  display: flex;
+}
+
+.flex-container {
+  flex: 1;
+  text-align: right;
+  padding-right: 16px; /* Ajusta según sea necesario */
+}
+
+mat-toolbar {
+  display: flex;
+  justify-content:space-between;
+}
